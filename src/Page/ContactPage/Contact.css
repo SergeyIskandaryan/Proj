@@ -1,0 +1,11 @@
+.MainContact {
+    text-align: center;
+    background-color: gray;
+    font-family: italic;
+}
+
+
+.MainContact h1{
+    
+    border-bottom: 4px black solid;
+}

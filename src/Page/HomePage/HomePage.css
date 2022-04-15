@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#nav {
+   font-family: italic;
+  
+}
+
+#ul {
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+   
+}
+
+
+.Li2 {
+    float: left;
+    border-right:1px solid #bbb;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 2s;
+}
+
+
+.Li2:hover {
+
+    background-color: #8D8D8D;
+    text-decoration: underline 2px solid;
+}
+
+.Li2_Li1 {
+    float: right;
+    border-right:1px solid #bbb;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+.Homesearch{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    max-width: 100%;
+    height: 700px;
+    opacity: 0.5;
+  
+}
+
+
+
+.Homeinput {
+    width: 600px;
+    padding: 10px 0;
+    border-radius: 45px;
+    border: none;
+    outline: none;
+}
+
+.Homeh1 {
+    margin-top: 140px;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
